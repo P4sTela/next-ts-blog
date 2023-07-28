@@ -3,6 +3,7 @@
  */
 const nextConfig = {
     output: 'export',
+    reactStrictMode: true,
     basePath: process.env.GITHUB_ACTIONS && "/next-ts-blog",
     trailingSlash: true,
 }
